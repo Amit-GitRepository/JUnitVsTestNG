@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test runner">
+	<test name="Test NG Explotation" junit="true">
+	
+		<classes>
+			<class name="junit.JunitTest1_SkipTest">
+			</class>
+
+		</classes>
+	</test>
+</suite>

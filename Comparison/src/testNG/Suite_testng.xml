@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test runner">
+	<test name="Test NG Explotation">
+	<parameter name="myParameter" value="parameterValue"></parameter>
+		<classes>
+			<class name="testNG.TestNG2_DepedencyTest">
+			</class>
+
+			<class name="testNG.TestNG1_SkipTest">
+			</class>
+			
+			<class name="testNG.TestNG3_Parameterization">
+			</class>
+			
+		</classes>
+	</test>
+</suite>
